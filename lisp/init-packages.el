@@ -18,6 +18,7 @@
 					  rainbow-delimiters
 					  company-ycmd
 					  company-anaconda
+					  solarized-theme
 					  ) "Default packages")
 
 (setq package-selected-packages my/packages)
@@ -50,7 +51,10 @@
 (global-company-mode t)
 
 ;; monokai
-(load-theme 'monokai t)
+;;(load-theme 'monokai t)
+
+;; solarized
+(load-theme 'solarized-light t)
 
 ;; rainbow-delimiters
 (add-hook 'prog-mode-hook #'rainbow-delimiters-mode)
